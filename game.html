@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project game</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <button onclick="
+    
+    if(random >=0 && random <(1/3)){
+        computerMove ='Rock';
+    }
+    else if(random >=(1/3) && random <(2/3)){
+        computerMove = 'Paper';
+    }
+    else if(random >=(2/3) && random <1)
+    {
+        computerMove = 'Scissor';
+    }
+    console.log('computerMove');
+
+    
+    
+    if(computerMove === Rock){
+        result = 'tie';
+
+    }
+    else if(computerMove === Paper){
+        result = 'you lose!';
+    }
+    else if(computerMove === scissor){
+        result = ' Wow ,you won!! '
+    }
+    console.log('result')
+    alert(`you picked Rock, computer picked ${computerMove} . ${result} `);
+
+    ">Rock</button>
+
+
+    <button onclick="
+     
+
+
+
+if(random >=0 && random <(1/3)){
+    computerMove ='Rock';
+}
+else if(random >=(1/3) && random <(2/3)){
+    computerMove = 'Paper';
+}
+else if(random >=(2/3) && random <1)
+{
+    computerMove = 'Scissor';
+}
+console.log('computerMove');
+
+
+
+if(computerMove === Rock){
+    result = 'Wow ,you won';
+
+}
+else if(computerMove === Paper){
+    result = 'tie';
+}
+else if(computerMove === scissor){
+    result = 'you lose!'
+}
+console.log('result')
+alert(`you picked Paper, computer picked ${computerMove} .${result} `);
+
+    "
+    
+    >Paper</button>
+    <button onclick="
+
+
+if(random >=0 && random <(1/3)){
+    computerMove ='Rock';
+}
+else if(random >=(1/3) && random <(2/3)){
+    computerMove = 'Paper';
+}
+else if(random >=(2/3) && random <1)
+{
+    computerMove = 'Scissor';
+}
+console.log('computerMove');
+
+
+
+if(computerMove === Rock){
+    result = 'you lose!';
+
+}
+else if(computerMove === Paper){
+    result = 'Wow ,you won';
+}
+else if(computerMove === scissor){
+    result = 'tie'
+}
+console.log('result')
+alert(`you picked Scissor   , computer picked ${computerMove} .${result} `);
+    "
+    >Scissor</button>
+ <script>
+    let Rock;
+    let Paper;
+    let scissor;
+    const random= Math.random();
+    let computerMove  = '';
+    let result = '';
+    
+
+ </script>
+   
+</body>
+</html>
